@@ -8,7 +8,7 @@ function Navbar() {
         </div>
       <ul className="flex gap-8 mx-9">
         <li className="cursor-pointer hover:font-bold transition-shadow duration-75">Home</li>
-        <li className="cursor-pointer hover:font-bold transition-3d duration-75">own Tasks</li>
+        <li className="cursor-pointer hover:font-bold transition-3d duration-75">Own Tasks</li>
         <li></li>
         <li></li>
       </ul>
