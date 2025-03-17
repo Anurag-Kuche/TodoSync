@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 function App() {
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
-  const [editId, setEditId] = useState(null);
+  const [editId, setEditId] = useState(null);//
 
   const handleDelete = (id) => {
     let newTodos = todos.filter(item => item.id !== id);
